@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeadlLet || Documentation</title>
+
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/landing.css"/>
+</head>
+<body>
+
+<div class="out">
+
+    <header class="header">
+        <div class="header__i container">
+            <a href="index.html" class="header__logo">
+                <img src="img/general/logo.svg" alt="Leadlet">
+            </a>
+            <div class="header__right">
+                <nav class="main-nav">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__list-item">
+                            <a href="features.html" class="main-nav__list-lnk" title="FEATURES">FEATURES</a>
+                        </li>
+                        <li class="main-nav__list-item">
+                            <a href="https://github.com/leadlet" class="main-nav__list-lnk" title="COMMUNITY">COMMUNITY</a>
+                        </li>
+                        <li class="main-nav__list-item">
+                            <a href="documentation.html" class="main-nav__list-lnk" title="DOCUMENTATION">DOCUMENTATION</a>
+                        </li>
+                        <li class="main-nav__list-item">
+                            <a href="https://github.com/leadlet" class="main-nav__list-lnk" title="DOWNLOAD">DOWNLOAD</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="btn btn_type1 btn_test" href="http://app.leadlet.org" role="button">Test it</a>
+                <a href="http://app.leadlet.org" class="mobile-nav-btn">
+                    <span></span>
+                </a>
+            </div><!--header__right end-->
+        </div>
+    </header><!--header end-->
+
+    <div class="content">
+
+        <form class="search">
+            <div class="search__i container">
+
+                <div class="form-group">
+                    <select name="search" class="documentation-search_js" placeholder="Search in Documentation">
+                        <option value=""></option>
+                        <option value="1">Contacts</option>
+                        <option value="2">Manage Contacts</option>
+                        <option value="3">Manage Contact Segments</option>
+                        <option value="5">Manage Contact Fields</option>
+                        <option value="6">Contact Frequency Rules</option>
+                    </select>
+                    <button type="submit" class="search-btn">
+                        <i class="icon icon-search"></i>
+                    </button>
+                </div>
+
+            </div>
+            <div class="search-overlay"></div>
+        </form><!--search end-->
+
+        <div class="documentation">
+            <div class="documentation__i container">
+
+                <div class="main">
+                    <h1 class="documentation__title">Leadlet Documentation</h1>
+
+
+                    <div class="post">
+                        <h2>Introduction</h2>
+                        <p>This book serves as the documentation for Leadlet, the open source marketing automation
+                            system. Everyone is welcome to help make this information better and improve as needed.</p>
+
+                        <br>
+
+                        <h2>Developer Docs</h2>
+                        <p>If you are looking for some details about Leadlet API, webhooks, theme or plugin development,
+                            go to <a href="#">Developer docs</a>.</p>
+
+                        <br>
+
+                        <h2>Download as PDF</h2>
+                        <p><a href="#">Click here</a> to download these docs as a PDF.</p>
+
+                        <br>
+
+                        <h2>How to contribute to the docs</h2>
+                        <p>This repository is the source code for Gitbook published at www.leadlet.org/docs. The source
+                            code is shared here on GitHub so anyone can contribute to the documentation in the same way
+                            the programmers do with the actual Leadlet code.</p>
+
+                        <br>
+
+                        <h2>The file structure</h2>
+                        <p>We've worked with the README.md file in the previous section. This file is shown in the home
+                            page of a GitHub repository and you are reading its content right now. It doesn't have
+                            anything to do with the Mautic documentation.</p>
+
+                        <p>The SUMMARY.md file defines the menu of the documentation. If you add a new page to the
+                            documentation, you'll have to also add a new line there defining the title and the link to
+                            the file. It's pretty straightforward when you see the current menu items.</p>
+
+                        <p>The folders are here to group the topics together. Open for example the asset folder. You'll
+                            see it has its own README.md file. It is the main content when you click on the Asset menu
+                            item. The manage_assets.md file is a subitem. The media subfolder contains all the images
+                            used in the md files.</p>
+
+                        <br>
+
+                        <h2>Links</h2>
+
+                        <p>Often you'll want to make a link into another place in the documentation. In Markdown, the
+                            link looks like this:</p>
+
+                        <code>[link title](http://example.com)</code>
+
+                        <br>
+
+                        <p>This will create an external link with absolute URL. If you want to create an internal link,
+                            use a relative URL like this:
+                        </p>
+
+                        <code>[link title](http://example.com)</code>
+
+                    </div>
+
+                </div>
+                <div class="aside">
+                    <nav class="side-nav">
+                        <ol class="side-nav__list">
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Getting Started
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    What’s New
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Contacts
+                                </a>
+                                <ol class="side-nav__list side-nav__list-sub">
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Manage Contacts
+                                        </a>
+                                    </li>
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Import Contacts
+                                        </a>
+                                    </li>
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Manage Segments
+                                        </a>
+                                    </li>
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Manage Fields
+                                        </a>
+                                    </li>
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Frequency Rules
+                                        </a>
+                                    </li>
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Preference Center
+                                        </a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Components
+                                </a>
+                                <ol class="side-nav__list side-nav__list-sub">
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Assets
+                                        </a>
+                                    </li>
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Dynamic Web Content
+                                        </a>
+                                    </li>
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Forms
+                                        </a>
+                                    </li>
+                                    <li class="side-nav__item">
+                                        <a href="#" class="side-nav__lnk">
+                                            Pages
+                                        </a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Channels
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Campaigns
+                                </a>
+                            </li>
+
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Reports
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Points
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Stages
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Categories
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a href="#" class="side-nav__lnk">
+                                    Plugins
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+        </div><!--documentation end-->
+
+    </div><!--content end-->
+
+    <div class="push"></div>
+
+
+</div><!--out end-->
+
+<footer class="footer">
+    <div class="footer__i container">
+        <div class="footer__top">
+
+            <div class="row">
+                <div class="col">
+                    <a class="footer__logo" href="#">
+                        <img src="img/general/footer-logo.svg" alt="Leadlet">
+                        <span class="logo-text">Field Sales Software Done Right</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <nav class="footer__nav">
+                        <p><strong>Features</strong></p>
+                        <ul>
+                            <li class="footer__nav-item"><a href="/features.html#goal_and_quota_management" class="footer__nav-lnk">Goal and Quota
+                                Management</a></li>
+                            <li class="footer__nav-item"><a href="/features.html#crm_management" class="footer__nav-lnk">CRM</a></li>
+                            <li class="footer__nav-item"><a href="/features.html#activity_management" class="footer__nav-lnk">Activity Management</a>
+                            </li>
+                            <li class="footer__nav-item"><a href="/features.html#location_aware_mobile_app" class="footer__nav-lnk">Location Aware Mobile
+                                App</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__nav">
+                        <p><strong>Information</strong></p>
+                        <ul>
+                            <li class="footer__nav-item"><a href="#" class="footer__nav-lnk">Quick Start</a></li>
+                            <li class="footer__nav-item"><a href="documentation.html" class="footer__nav-lnk">Documentation</a></li>
+                            <li class="footer__nav-item"><a href="#" class="footer__nav-lnk">Community</a></li>
+                            <li class="footer__nav-item"><a href="#" class="footer__nav-lnk">Download</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__nav">
+                        <p><strong>About Us</strong></p>
+                        <ul>
+                            <li class="footer__nav-item"><a href="contact-us.html" class="footer__nav-lnk">Contact us</a></li>
+                            <li class="footer__nav-item"><a href="#" class="footer__nav-lnk">hello@leadlet.com</a></li>
+                            <li class="footer__nav-item"><a href="#" class="footer__nav-lnk">Our blog</a></li>
+                            <li class="footer__nav-item"><a href="#" class="footer__nav-lnk">Media Kit</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div><!--footer__top end-->
+        <div class="footer__bottom">
+            <div class="footer__bottom-left">
+                <div class="copy">
+                    Copyright &copy; Leadlet 2018
+                </div>
+                <nav class="footer__secondary-nav">
+                    <ul class="footer__secondary-nav-list">
+                        <li class="footer__secondary-nav-item">
+                            <a href="#" class="footer__secondary-nav-lnk">Privacy Policy</a>
+                        </li>
+                        <li class="footer__secondary-nav-item">
+                            <a href="#" class="footer__secondary-nav-lnk">Terms of Use</a>
+                        </li>
+                        <li class="footer__secondary-nav-item">
+                            <a href="#" class="footer__secondary-nav-lnk">About Us</a>
+                        </li>
+                        <li class="footer__secondary-nav-item">
+                            <a href="#" class="footer__secondary-nav-lnk">Support</a>
+                        </li>
+                    </ul>
+                </nav><!--footer__secondary-nav end-->
+            </div>
+            <div class="footer__bottom-right">
+                <div class="share">
+                    <ul class="share__list">
+                        <li class="share__item">
+                            <a href="#" class="share__lnk">
+                                <i class="icon icon-fb"></i>
+                            </a>
+                        </li>
+                        <li class="share__item">
+                            <a href="#" class="share__lnk">
+                                <i class="icon icon-tw"></i>
+                            </a>
+                        </li>
+                        <li class="share__item">
+                            <a href="#" class="share__lnk">
+                                <i class="icon icon-in"></i>
+                            </a>
+                        </li>
+                        <li class="share__item">
+                            <a href="#" class="share__lnk">
+                                <i class="icon icon-yt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--footer__bottom end-->
+    </div>
+</footer><!--footer end-->
+
+
+<!-- Modal -->
+<div class="modal fade modal_default" id="download-modal" tabindex="-1" role="dialog" aria-labelledby="download-modal"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">License Agreement</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="agreement-text">
+                    <div class="agreement-text__inner custom-scroll_js">
+                        <div class="post">
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </p>
+
+                            <p>M.Ö. 45 tarihinde Çiçero tarafından yazılan "de Finibus Bonorum et Malorum"un 1.10.32
+                                sayılı
+                                bölümü
+                                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                                sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                                amet,
+                                consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+                                et
+                                dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                                nihil
+                                molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+                                pariatur?"</p>
+
+                            <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born and I will give you a complete account of the system, and expound the
+                                actual
+                                teachings of the great explorer of the truth, the master-builder of human happiness. No
+                                one
+                                rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those
+                                who
+                                do not know how to pursue pleasure rationally encounter consequences that are extremely
+                                painful. Nor again is there anyone who loves or pursues or desires to obtain pain of
+                                itself,
+                                because it is pain, but because occasionally circumstances occur in which toil and pain
+                                can
+                                procure him some great pleasure. To take a trivial example, which of us ever undertakes
+                                laborious physical exercise, except to obtain some advantage from it? But who has any
+                                right
+                                to find fault with a man who chooses to enjoy a pleasure that has no annoying
+                                consequences,
+                                or one who avoids a pain that produces no resultant pleasure?"</p>
+                        </div>
+                    </div>
+                </div><!--agreement-text end-->
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn_type1">DOWNLOAD</button>
+                <button type="button" class="btn btn_type2">GRAB THE SOURCE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/main.js"></script>
+<script src="js/separate-js/start.js"></script>
+</body>
+</html>
