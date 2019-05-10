@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0700a50b-1272-40a1-9f14-baf8c0db2f08" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="1054" column="42" lean-forward="true" selection-start-line="1054" selection-start-column="32" selection-end-line="1054" selection-end-column="42" />
+            <state relative-caret-position="335">
+              <caret line="291" column="105" selection-start-line="291" selection-start-column="60" selection-end-line="291" selection-end-column="105" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/common.css">
+      <file leaf-file-name="features.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="9362" lean-forward="true" selection-start-line="9362" selection-end-line="9362" />
+            <state relative-caret-position="48">
+              <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -48,6 +48,10 @@
       <find>col</find>
       <find>column</find>
       <find>Downlo</find>
+      <find>crm</find>
+      <find>Community</find>
+      <find>Download</find>
+      <find>Goal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/features.html" />
       </list>
     </option>
   </component>
@@ -187,12 +192,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557478599922</updated>
-      <workItem from="1557478604523" duration="5108000" />
+      <workItem from="1557478604523" duration="6182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5108000" />
+    <option name="totallyTimeSpent" value="6182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1438" height="811" extended-state="0" />
@@ -208,7 +213,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32913166" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -255,8 +260,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="1054" column="42" lean-forward="true" selection-start-line="1054" selection-start-column="32" selection-end-line="1054" selection-end-column="42" />
+        <state relative-caret-position="335">
+          <caret line="291" column="105" selection-start-line="291" selection-start-column="60" selection-end-line="291" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
         </state>
       </provider>
     </entry>
