@@ -27,6 +27,13 @@
     .btn_type2:hover {
       background: #6C5CE7;
       color: #fff; }
+  .btn_type4 {
+    background: #fff;
+    border-color: #FF7675;
+    color: #FF7675; }
+    .btn_type4:hover {
+      background: #FF7675;
+      color: #fff; }
   .btn_type3 {
     background: #6C5CE7;
     border-color: #6C5CE7;
